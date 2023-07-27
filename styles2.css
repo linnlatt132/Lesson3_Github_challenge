@@ -1,0 +1,115 @@
+.main-container {
+    width: 500px;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: absolute;
+    background: #DAD299;
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+/*temp/city/icon*/
+.temp-city-icon{
+    display: flex;
+    justify-content: space-between; 
+    padding: 24px 22px; 
+    text-decoration: border;
+}
+.temp-city{
+    color: #faf8eb;
+    border-right: 1px dotted #faf8eb;
+    display:flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    padding-right: 20%;
+}
+.temperatures {
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+.temperatures p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.temperatures .unit{
+    font-size: 27px;
+    padding-left: 5px;
+}
+.city-container{
+    text-decoration: overline 1.3px #faf8eb wavy;
+    padding-top: 10px;
+    font-weight: bold;
+    padding: 0%;
+}
+.city-container i{
+    color: white;
+    font-size: 25px;
+}
+.city-container p{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Time/Date */
+.second-container{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;  
+    border-radius: 10px;
+    padding: 10px 13px;
+    background-color: white;
+}
+
+/*Search */
+.search-container {
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  
+  .search-container input {
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    border-top: none;
+    border-radius: 5px;
+    background: transparent;
+  }
+  
+  .search-container .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container .search-icon i {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .search-container .search-icon i:hover {
+    color: #666;
+  }
+  
+/* Icon */
+.icon{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.icon i{
+    color: #faf8eb;
+}
